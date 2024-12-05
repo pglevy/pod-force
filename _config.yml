@@ -4,4 +4,6 @@ plugins:
   - open-uri
   - jekyll-import
 
+safe: false
+
 baseurl: /pod-force
