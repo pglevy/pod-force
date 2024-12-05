@@ -1,0 +1,7 @@
+plugins:
+  - rss
+  - safe_yaml
+  - open-uri
+  - jekyll-import
+
+baseurl: /pod-force

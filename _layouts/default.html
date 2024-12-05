@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="{{ site.data.metadata.lang | default: 'en' }}" color-mode="user">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.data.metadata.title | default: 'Pod Force' }}</title>
+  <meta name="description"
+    content="{{ site.data.metadata.description | default: 'Launch your personal podcast player with open-source, forever-free web tech' }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+</head>
+
+<body>
+  {{ content }}
+  <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+
+</html>
